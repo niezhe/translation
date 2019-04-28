@@ -133,6 +133,6 @@ def main(str):
 
 if __name__ == '__main__':
     sys.stdout = codecs.getwriter('utf-8')(sys.stdout.detach())
-    str = "姐姐"#输入需要翻译的文字
+    str = "妹妹"#输入需要翻译的文字
     main(str)
 
